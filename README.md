@@ -1,1 +1,6 @@
-# Website
+<DOCTYPE html>
+
+	<html>
+		<head>
+		</head>
+	</html>
