@@ -4,29 +4,66 @@
 		<head>
 			<title>Malka's Art</title>
 			<link href="index.CSS" rel="stylesheet">
-			
+			<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+			<link rel="preconnect" href="https://fonts.gstatic.com">
+			<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+
 		</head>
 		
 		<body>
       <main>
         <h1>Malka's Art Website</h1>
-          <nav class="header">
-            <table>
-              <tr>
-								 <th scope="row>"<a href="#AboutMe">About Me</a></th>
-								 <th scope="row"><a href="gallery.html">Gallery</a></th>
-								 <th scope="row"><a href="contact.html">Contact</a></th>
-							</tr>
-		        </table>
-          </nav>
-      
+
+
+        <div class="topnav" id="myTopnav">
+        	<a href= "index.html">About Me</a>
+        	<a href="gallery.html">Gallery</a>
+        	<a href="contact.html">Contact</a>
+        </div>
+         
+         
+
+        <div id="banner"> <img src="https://th.bing.com/th/id/R5bc7be764dfb40954fb5f56daaa7b0c5?rik=bNfGsAPzoVistQ&riu=http%3a%2f%2fwww.onlygfx.com%2fwp-content%2fuploads%2f2017%2f04%2fpaint-brush-stroke-2-9.png&ehk=uywbswhCevFYxS7gaMMdqros55TvvWArwtiSOqK5Gzs%3d&risl=&pid=ImgRaw">
+">         </div>
+
+				<h2 id="AB">About Me</h2>
+
         <header>
 					<div id="AboutMe">
-            <h2>About Me</h2>
+    
+            <p>Colors bounced around in her head. They mixed and threaded themselves together. Even colors that had no business being together. They were all one, yet distinctly separate at the same time. How was she going to explain this to the others?</p>
+
+            <p>Do you think you're living an ordinary life? You are so mistaken it's difficult to even explain. The mere fact that you exist makes you extraordinary. The odds of you existing are less than winning the lottery, but here you are. Are you going to let this extraordinary opportunity pass?</p>
+
 				</header>
-        
+        <a href="https://www.artworksoakville.ca/">To Visit the Oakville Art Association Click Here!</a>
       </main>
+
+      <a href="">Open the PDF file </a>
 		</body>
 
+
+	<!--Youtube video -->
+	<br>
+	<br>
+	<iframe width="560" height="315" src="https://www.youtube.com/watch?v=l9_-2oG4Cc0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<script src="https://www.youtube.com/iframe_api"></script>
+<script>
+    var player;
+
+    function onYouTubeIframeAPIReady() {
+        player = new YT.Player('player', {
+            events: {
+                'onReady': onPlayerReady
+            }
+        });
+    }
+
+    function onPlayerReady(event) {
+        setTimeout(function() {
+            event.target.playVideo();
+        }, 5000)
+    }
+</script>
 				
 	</html>
